@@ -1,0 +1,41 @@
+
+;;;;;Configurando o Git
+- Fazer download do GIT em seu comuputador no site oficial;
+- Configurar a sua moda
+
+;;;;;;GitHub
+- Acessar o site do GitHub e cadastrar a sua conta;
+
+;;;;;;;;;;Repositorio;
+- Clicar no "+" exatamente no canto superior da tela;
+- Clicar em "New repository"
+- Configurar do seu jeito;
+
+;;;;;;;;;;;;;;;;;;Commit
+//Após tudo instalado e sem nenhuma dependença, faça isso:
+- Abra o seu terminal ou CMD
+
+//Digite os seguintes comandos:
+
+git init
+//O git init cria um novo repositório do Git
+
+git add . 
+// ou git add <nomedoarquivo>
+// Serve para adicionar tudo para o projeto
+
+git commit -m "meu primeiro commit"
+// -m serve para add uma mensagem aquele commit
+
+git branch -M main
+//Criação do Brach main
+
+git remote add origin <link_para_o_seu_repositorio>
+// Seu link estará visivel apos a criação do seu repositorio 
+
+git push -u origin main
+// enviar o projeto
+#FIM
+
+
+
